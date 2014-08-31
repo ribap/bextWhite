@@ -1,0 +1,71 @@
+%% ===============================
+%%  BEXT white paper
+%%  (September 2014)
+%% ===============================
+
+%% Document options
+\documentclass[a4paper,11pt]{report}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx,rotating}
+\usepackage{cite}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{multirow}
+\usepackage{eurosym}
+\usepackage{dcolumn}
+\usepackage[pagewise]{lineno}
+\usepackage{lscape}
+\usepackage{url}
+
+%% Hack to make math formulas bold in section titles
+\makeatletter
+\DeclareRobustCommand*{\bfseries}{%
+  \not@math@alphabet\bfseries\mathbf
+  \fontseries\bfdefault\selectfont
+  \boldmath
+}
+\makeatother
+
+%% Some definitions 
+\input{defs.tex}
+
+\long\def\symbolfootnote[#1]#2{\begingroup%
+\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
+
+
+%% ======================================
+\begin{document}
+
+%% Title page and abstract
+\input{frontmatter}
+
+%% Contents
+\tableofcontents
+
+%% CHAPTER 1. THE PHYSICS %%%%%%%%%%%%%%%
+\chapter{\bbonu\ experiments and barium tagging}
+
+\input{src/introduction.tex}
+
+%
+%
+%%% CHAPTER 2. EASY AND SOFT %%%%%%%%%%%%%
+\chapter{Barium laser spectroscopy}
+
+\input{src/bata.tex}
+%
+%
+%%%% CHAPTER 3. ANGEL %%%%%%%%%%%%%%%%%%%
+\chapter{Experimental approach: a roadmap} 
+\input{src/experiments.tex}
+
+\chapter*{Acknowledgements}
+This work is supported by the Spanish Secretary of State for Science (SEIDI) under grants CONSOLIDER-INGENIO 2010 CSD2008-0037 (CUP), FPA2012-13697-C04-04, etc.
+
+
+\bibliographystyle{JHEP}
+\bibliography{biblio}
+
+\end{document}
