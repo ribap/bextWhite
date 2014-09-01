@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {0.1}Introduction}{1}
+\contentsline {chapter}{\numberline {1}\ensuremath {\beta \beta 0\nu }\ experiments and barium tagging}{2}
+\contentsline {section}{\numberline {1.1}Introduction}{2}
+\contentsline {chapter}{\numberline {2}Barium laser spectroscopy}{3}
+\contentsline {section}{\numberline {2.1}Barium Tagging}{3}
+\contentsline {subsection}{\numberline {2.1.1}Low deshelving rate of state D. $\Gamma _{31}\ll \Gamma _{21}, \Gamma _{23}$}{6}
+\contentsline {subsection}{\numberline {2.1.2}High deshelving rate of state D. $\Gamma _{31}\gg \Gamma _{21}, \Gamma _{23}$}{8}
+\contentsline {subsection}{\numberline {2.1.3}Medium deshelving rate of state D. $\Gamma _{31}\simeq \Gamma _{21}, \Gamma _{23}$}{9}
+\contentsline {section}{\numberline {2.2}Ba$^{++}\rightarrow $Ba$^+$ recombination}{9}
+\contentsline {section}{\numberline {2.3}Scattering of the blue laser?}{9}
+\contentsline {section}{\numberline {2.4}D state deshelving}{10}
+\contentsline {subsection}{\numberline {2.4.1}Collisions}{10}
+\contentsline {subsection}{\numberline {2.4.2}Deshelving induced by a second laser}{13}
+\contentsline {section}{\numberline {2.5}Broadening mechanisms}{14}
+\contentsline {subsection}{\numberline {2.5.1}Natural broadening}{15}
+\contentsline {subsection}{\numberline {2.5.2}Collisional broadening}{15}
+\contentsline {subsection}{\numberline {2.5.3}Doppler broadening}{16}
+\contentsline {section}{\numberline {2.6}Final considerations}{17}
+\contentsline {section}{\numberline {2.7}Conclusions}{17}
+\contentsline {section}{\numberline {2.8}Acknowledgments}{17}

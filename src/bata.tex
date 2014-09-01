@@ -1,88 +1,8 @@
-%\documentclass[twocolumn,showpacs,preprintnumbers,amsmath,amssymb]{revtex4}
-%\usepackage{graphicx}% Include figure files
-%\usepackage{dcolumn}% Align table columns on decimal point
-%\usepackage{bm}% bold math
-%\usepackage{rotating}
-%\renewcommand{\thesection}{\arabic{section}}
-%
-%
-%% ---------------------------------------------------------------------
-%
-%\newenvironment{decl}[1][]%
-%    {\par\small\addvspace{4.5ex plus 1ex}%
-%     \vskip -\parskip
-%     \ifx\relax#1\relax
-%        \def\@decl@date{}%
-%     \else
-%        \def\@decl@date{\NEWfeature{#1}}%
-%     \fi
-%     \noindent\hspace{-\leftmargini}%
-%     \begin{tabular}{|l|}\hline\ignorespaces}%
-%    {\\\hline\end{tabular}\nobreak\@decl@date\par\nobreak
-%     \vspace{2.3ex}\vskip -\parskip}
-%
-%\newcommand{\rb}[2]{\raisebox{1.5ex}[-1.5ex]{#1}}
-%\newcommand{\?}{\marginpar{\huge \bf{?}}}
-%\newcommand{\lastempty}{\clearpage{\pagestyle{empty}\cleardoublepage}}
-%
-%
-%
-%% ---------------------------------------------------------------------
-%
-%%----------Definitions--------------------------------------%
-%\def\Blue{\special{color cmyk 1. 1. 0 0}} % PANTONE BLUE-072
-%\def\Brown{\special{color cmyk 0 0.81 1. 0.60}} % PANTONE 1615
-%\def\Cyan{\special{color cmyk 1. 0 0 0}} % PANTONE PROCESS-CYAN  a nice blue
-%\def\Yellow{\special{color cmyk  0 0.10 0.84 0}} % PANTONE 109 a nice yellow
-%\def\Green{\special{color cmyk 1. 0 1. 0}} % PANTONE GREEN
-%\def\Red{\special{color cmyk 0 1. 1. 0}} % PANTONE RED
-%\def\Black{\special{color cmyk 0 0 0 1.}} % PANTONE PROCESS-BLACK
-%
-%\def\lpy#1{#1} % use this for final
-%\def\lpy#1{\Cyan#1\Black} % use this for drafts
-%\def\lpybox#1{} %% use this for final
-%\def\lpybox#1{\fbox{\Red{\bf#1}\Black}} % use this for drafts
-%
-%\def\calE{\mathcal{E}}
-%\def\Hatom{\textrm{H}$_{\textrm{atom}}$}
-%\def\Hlight{$\textrm{H}_{\textrm{light}}$}
-%\def\Hinterac{$\textrm{H}_{\textrm{interac}}$}
-%\def\waven{cm$^{-1}$}
-%\def\D{$^2\mathrm{D}_{3/2}$\,}
-%\def\S{$^2\mathrm{S}_{1/2}$\,}
-%\def\P{$^2\mathrm{P}_{1/2}$\,}
-%\def\ns{ns$^{-1}$}
-%
-%\newcommand{\stwo}{\mbox{$2s\,^3S_1$}}
-%\newcommand{\p}[1]{\mbox{$3p\,^3P_{#1}$}}
-%\newcommand{\g}{X$^2$$\Pi$($\nu''=0$)}
-%\newcommand{\e}{A$^2$$\Sigma^+$($\nu'=0$)}
-%\newcommand{\gbib}{X$^2$$\Pi$}
-%\newcommand{\ebib}{A$^2$$\Sigma^+$}
-%-------------------------------------------------------%
-%\begin{document}
-%
-%\title{BaTa article}
-%
-%\author{A. Peralta Conde, J. Api\~naniz, E. Garc\'ia,  M. Rico, C. Salgado, M. S\'anchez, F. Valle, A. Vazquez, and L. Roso}
-%
-%\affiliation{Centro de L\'aseres Pulsados, CLPU, Parque Cient\'ifico, E-37185 Villamayor, Salamanca, Spain.}
-%
-%
-%\begin{abstract}
-%XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-%\end{abstract}
-%
-%%\pacs{32.80.Qk, 42.50.Hz, 42.50.Ct, 82.80.Ms}
-%
-%\maketitle
-
-
 
 
 \section{Barium Tagging}\label{BaTa}
 
-The first question that need to be addressed is the choice of system for the tagging process. Although it seems obvious to explore the possibility of barium tagging (BaTa) in doubly ionized Ba, an inspection of the doubly ionized barium energy levels discard this possibility.  According to \cite{Sansonetti10} the first excited state of Ba$^{++}$ lies at 132770.79\,\waven which corresponds to an energy of 16.46\,eV, or equivalently to a radiation of around 75\,nm wavelength. Any radiation below 200\,nm, i.e., vacuum ultraviolet (VUV) or extreme ultraviolet (XUV), is not easily accesible, and its generation and handling involves major experimental difficulties. As a consequence, the tagging process must take place in singly ionized Ba, and accordingly the recombination process Ba$^{++}\rightarrow$Ba$^{+}$ must be somehow stimulated. We will discuss this in detail in further sections. 
+The first question that needs to be addressed is the choice of system for the tagging process. Although it seems obvious to explore the possibility of barium tagging (BaTa) in doubly ionized Ba, an inspection of the doubly ionized barium energy levels discards this possibility.  According to \cite{Sansonetti10} the first excited state of Ba$^{++}$ lies at 132770.79\,\waven which corresponds to an energy of 16.46\,eV, or equivalently to a radiation of around 75\,nm wavelength. Any radiation below 200\,nm, i.e., vacuum ultraviolet (VUV) or extreme ultraviolet (XUV), is not easily accesible and its generation and handling involves major experimental difficulties. As a consequence, the tagging process must take place in singly ionized Ba, and accordingly the recombination process Ba$^{++}\rightarrow$Ba$^{+}$ must be somehow stimulated. We will discuss this in detail in further sections. 
 
 \begin{figure}[ht!]
 \begin{center}
@@ -91,9 +11,9 @@ The first question that need to be addressed is the choice of system for the tag
 \end{center}
 \end{figure}
 
-Figure\,\ref{levelscheme} shows the first three states of Ba$^+$ ions together with the corresponding radiative lifetimes. The level structure of Ba$^+$ is somehow peculiar because the first excited state, i.e., the state D, is not optically accesible, considering the dipole approximation and single photon transitions, from the ground state.  It is worth remembering the selection rules for $\pi$ polarized light are: $ \Delta\mathrm{L}=1, \,\Delta\mathrm{S}=0, \,\Delta\mathrm{J}=0,\pm1, \,\Delta m_\mathrm{J}=0\,(\text{with forbidden}\, \Delta\mathrm{J}=0;\,\mathrm{m_J}=0\rightarrow\mathrm{m'_J}=0)$.  According to this, the state D is a metastable state with a radiative lifetime of the order of around 80\,s \textbf{[pod\'eis dar la referencia de este dato???]}. 
+Figure\,\ref{levelscheme} shows the first three states of Ba$^+$ ions together with the corresponding radiative lifetimes. The level structure of Ba$^+$ is somehow peculiar because the first excited state, i.e., the D state, is not optically accesible considering the dipole approximation and single photon transitions, from the ground state.  The selection rules for $\pi$ polarized light are: $ \Delta\mathrm{L}=1, \,\Delta\mathrm{S}=0, \,\Delta\mathrm{J}=0,\pm1, \,\Delta m_\mathrm{J}=0\,(\text{with forbidden}\, \Delta\mathrm{J}=0;\,\mathrm{m_J}=0\rightarrow\mathrm{m'_J}=0)$.  According to this, the state D is metastable with a radiative lifetime of the order of around 80\,s \textbf{[pod\'eis dar la referencia de este dato???]}. 
 
-A possible scheme for the tagging process would involve the laser pumping of the S$\rightarrow$P transition, and the collection of the fluorescence of the P$\rightarrow$D one. Since excitation and fluorescence wavelengths are very different, they can be efficiently discriminate using filters which simplifies enormously the detection systems. As a unavoidable drawback the metastable D state, makes necessary the repump of the population driven to this state to the S or D states in order to obtain an appreciable fluorescence signal.  We will discuss some possibilities of deshelving the D state below. 
+A possible scheme for the tagging process would involve laser pumping of the S$\rightarrow$P transition, and the collection of the fluorescence of the P$\rightarrow$D one. Since excitation and fluorescence wavelengths are very different, they can be efficiently discriminated using filters which simplifies enormously the detection systems. Because the D state is metastable, that scheme makes necessary to repump the population driven to this state to the S or P states in order to obtain an appreciable fluorescence signal.  We will discuss some possibilities of deshelving the D state below. 
 
 The population dynamics is ruled by the time dependent Schr\"odinger equation 
 \begin{equation}
@@ -101,12 +21,12 @@ The population dynamics is ruled by the time dependent Schr\"odinger equation
  i\hbar\frac{\partial\hat{\Psi}(t)}{\partial t}=H(t)\hat{\Psi}(t),
 \end{equation}
 where $\Psi(t)$ is the statevector of the system and $H(t)$ the
-Hamiltonian including the interaction with the laser. If incoherent processes like spontaneous emission need to be taken into account, the Schr\"odinger equation no longer provides an adequate description of the dynamics. For such situations it is necessary to work in the density matrix formalism. In this formalism the dynamics is rule by the so called quantum Liouville equation \cite{Sh90}
+Hamiltonian including the interaction with the laser. If incoherent processes like spontaneous emission need to be taken into account, the Schr\"odinger equation no longer provides an adequate description of the dynamics. For such situations it is necessary to work with density matrix formalism. In this formalism the dynamics is ruled by the so called quantum Liouville equation \cite{Sh90}
 \begin{equation}
 \label{Density}
  \hbar\frac{\partial\hat{\rho}(t)}{\partial t}=-i\left[H(t), \hat{\rho}(t)\right]
 \end{equation}
-being $\rho_{ii}$ the population of state i, and $\rho_{ij}$ the coherence between states i an j. In this formalism the relaxation terms $\Gamma$ , e.g., ionization, radiative decays or collisional broadening, can be easily taking into by adding an extra term to Eq.\,\ref{Density}
+being $\rho_{ii}$ the population of state i, and $\rho_{ij}$ the coherence between states i an j. In this formalism the relaxation terms $\Gamma$, e.g., ionization, radiative decays or collisional broadening, can be easily taken into account by adding an extra term to Eq.\,\ref{Density}
 \begin{equation}
 \label{Density}
  \hbar\frac{\partial\hat{\rho}(t)}{\partial t}=-i\left[H(t), \hat{\rho}(t)\right]-\hbar\hat{\Gamma}\hat{\rho}(t).
@@ -119,7 +39,7 @@ being $\rho_{ii}$ the population of state i, and $\rho_{ij}$ the coherence betwe
 \end{center}
 \end{figure}
 
-Taking into consideration the system described in Fig.\,\ref{levelscheme} with all the possible decays (see Fig.\,\ref{levelscheme2}), and the Hamiltonian that describes the interaction with the laser (for simplicity we will assume that the laser is on resonance with the S$\rightarrow$P transition)
+Taking into consideration the system described in Fig.\,\ref{levelscheme} with all the possible decays (see Fig.\,\ref{levelscheme2}), the Hamiltonian that describes the interaction with the laser results in (for simplicity we will assume the laser on resonance with the S$\rightarrow$P transition)
 \begin{equation}
 H(t)=\frac{1}{2}\left(
 \begin{matrix} 
@@ -129,7 +49,7 @@ H(t)=\frac{1}{2}\left(
 \end{matrix}
 \right)
 \end{equation}
-being $\Omega$ the Rabi frequency, i.e., the interaction energy divided by $\hbar$, the population dynamics is described by the following set of differential equations:
+being $\Omega$ the Rabi frequency, i.e., the interaction energy divided by $\hbar$. The population dynamics is described by the following set of differential equations:
 
 \begin{align}
 \label{density}
@@ -143,9 +63,9 @@ being $\Omega$ the Rabi frequency, i.e., the interaction energy divided by $\hba
 & R\rho_{23}'  = (1/2)( \Omega I\rho_{13} - R\rho_{23} (\Gamma_{21}+ \Gamma_{23} + \Gamma_{31}))\\  \nonumber
 & I\rho_{23}'  = -(1/2)( \Omega R\rho_{13}- I\rho_{23} (\Gamma_{21}+ \Gamma_{23} + \Gamma_{31}))
 \end{align}
-where $\rho_{ii}$ is the population of state $i$, and $R\rho_{ij}$ and $I\rho_{ij}$ are the real and imaginary part of the coherence between states $i$ and $j$ respectively. It is important to mention that for situations where the decay rates $\Gamma_{ij}$ rule the dynamics of the system what is called the incoherent limit, i.e., $\Gamma_{ij}\gg\Omega$, the density matrix equations and rate equations are equivalent. Although the latter set of equations is much easier to handle and it is the most likely the situation for BaTa, we prefer to have a more general description that allows us further refinements in the equations, e.g., introduction of different broadening mechanisms as collisional or Doppler broadening. 
+where $\rho_{ii}$ is the population of state $i$, and $R\rho_{ij}$ and $I\rho_{ij}$ are the real and imaginary parts of the coherence between states $i$ and $j$ respectively. It is important to mention that for situations where the decay rates $\Gamma_{ij}$ rule the dynamics of the system, what is called the incoherent limit, i.e., $\Gamma_{ij}\gg\Omega$, the density matrix equations and rate equations are equivalent. Although the latter set of equations is much easier to handle and it is most likely the situation for BaTa, we prefer to have a more general description that will allow us further refinements in the equations, e.g., introduction of different broadening mechanisms as collisional or Doppler broadening. 
 
-For a stationary situation, i.e., $\rho_{ij}'\rightarrow0$, the population of state 2 reads
+For a stationary situation $\rho_{ij}'\rightarrow0$, the population of state 2 reads
 \begin{equation}
 \label{P2}
 P_2=\frac{\Gamma_{31}\Omega^2}{\Gamma_{31}(\Gamma_{21}+\Gamma_{23})(\Gamma_{21}+\Gamma_{31}+\Gamma_{23})+(2\Gamma_{31}+\Gamma_{23})\Omega^2}
@@ -156,7 +76,7 @@ being the rate of red fluorescence photons that need to be detected
 \Gamma_{\text{Photons}}=\Gamma_{23}P_2
 \end{equation}
 
-As it was stated above, the rate of fluorescence red photons depends strongly on the decay rate $\Gamma_{31}$ (see Eq.\,\ref{P2}). Since the state D is metastable, it is plausible to think that the relaxation process D$\rightarrow$S will be mediated mainly by collisions. Thus for the sake of generality we will assume that collisions affect also the decay rate of states S and P. That means:
+As it was stated above, the rate of fluorescent red photons depends strongly on the decay rate $\Gamma_{31}$ (see Eq.\,\ref{P2}). Since the state D is metastable, it is plausible to think that the relaxation process D$\rightarrow$S will be mediated mainly by collisions. Thus, for the sake of generality we will assume that also collisions affect the decay rate of states S and P. That means:
 \begin{align}
 \label{Mod_relax}
 & \Gamma_{21}^*=\Gamma_{21}+\Gamma_{31}
@@ -170,7 +90,7 @@ In this situation the $\Gamma_{Photons}$ is limited by $\Gamma_{31}$
 \begin{equation}
 \Gamma_{\text{Photons}}\leq\frac{\Gamma_{23}\Gamma_{31}\Omega^2}{\Gamma_{23}\Omega^2}=\Gamma_{31}
 \end{equation}
-This can be easily understood if one takes into account that the drain of population from the D to S is much slower than the pumping rate from S to P and the natural decays of state P.
+This can be easily understood if one takes into account that the drain of population from D to S states is much slower than the pumping rate from S to P and the natural decays of state P.
 
 \begin{figure}[ht!]
 \begin{center}
@@ -179,7 +99,7 @@ This can be easily understood if one takes into account that the drain of popula
 \end{center}
 \end{figure}
 
-As an example of our discussion, Fig.\,\ref{LowD2D} shows the $\Gamma_{\text{Photons}}$ as a function of the Rabi frequency. As it clearly seen the rate of red photons is limited by the decay $\Gamma_{31}$.  This can be also seen in Fig.\,\ref{LowDPopu} that shows the population dynamics for $\Omega=1$\ns. Once the populate reaches the state D, it can not escape in a time scale relevant for the population dynamics. 
+As an example of our discussion, Fig.\,\ref{LowD2D} shows the $\Gamma_{\text{Photons}}$ as a function of the Rabi frequency. It is clear that the rate of red photons is limited by the decay $\Gamma_{31}$.  This can also be seen in Fig.\,\ref{LowDPopu} that shows the population dynamics for $\Omega=1$\ns. Once the population reaches the state D it can not escape in a time scale relevant for the population dynamics. 
 
 \begin{figure}[ht!]
 \begin{center}
@@ -188,7 +108,7 @@ As an example of our discussion, Fig.\,\ref{LowD2D} shows the $\Gamma_{\text{Pho
 \end{center}
 \end{figure}
  
-At this point it is worth to calculate the saturation intensity and to give some values that connect theory and experiments. It can be shown \cite{Sh90} that when the Rabi frequency equals the natural decay, the population exhibits Rabi oscillations and the population dynamics is dominated by the laser-matter interaction. In other words, the atomic transition is saturated. Let us assume 
+At this point it is worth to calculate the saturation intensity, $I_{\text{Saturation}}$, and to give some values that connect theory and experiments. It can be shown \cite{Sh90} that when the Rabi frequency equals the natural decay, the population exhibits Rabi oscillations and the population dynamics is dominated by the laser-matter interaction. In other words, the atomic transition is saturated. Let us assume 
 \begin{equation}
 \Omega_{\text{Saturation}}\simeq\Gamma_{21}=\frac{1}{10.5}\,\text{ns}^{-1}.
 \end{equation}
@@ -204,11 +124,11 @@ where $\lambda_{21}$ is the wavelength of the transition, the saturation electri
 \begin{equation}
 E_{\text{Saturation}}=\sqrt{\frac{h2\pi}{3\epsilon_o\tau_{21}\lambda^3}}\simeq350\,\text{V/m}.
 \end{equation}
-According to this calculation, the required laser intensity for saturating the transition between the states S$\rightarrow$P is
+According to this calculation, the required laser intensity for saturating the transition S$\rightarrow$P is
 \begin{equation}
 I_{\text{Saturation}}=\frac{1}{2}\epsilon_0cE^2_{\text{Saturation}}\simeq0.016\,\text{Wcm}^{-2}.
 \end{equation}
-Thus, for a given laser power using the value for $I_{\text{Saturation}}$ we can calculate how wide the laser focus can be. This is critical for NEXT experiment because a wider laser focus will clearly enhance the possibilities for the detection of barium atoms. Finally it is important to notice that the obtained value for the saturation intensity is just a first approximation. When different factors like for example spatial profile of the laser beam or broadening mechanisms of the transition are taken into account, this value tends to be larger. Even so, it is a very useful approximation that directly connects theory and experiments.
+Thus, given this value for $I_{\text{Saturation}}$ we can calculate the width of the laser focus for a given laser power. This is critical for NEXT experiment because a wider laser focus will clearly enhance the possibilities of detecting barium atoms. Finally, it is important to notice that the obtained value for the saturation intensity is just a first approximation. When different factors like for example spatial profile of the laser beam or broadening mechanisms of the transition are taken into account, this value tends to be larger. Even so, it is a very useful approximation that directly connects theory and experiments.
 
 
 \subsection{High deshelving rate of state D. $\Gamma_{31}\gg\Gamma_{21}, \Gamma_{23}$}
@@ -224,7 +144,7 @@ and accordingly
 \begin{equation}
 \Gamma_{\text{Photons}}\simeq\frac{\Gamma_{31}\Omega^2}{6\Gamma^2_{31}+3\Omega^2}.
 \end{equation}
-The maximum of $\Gamma_{\text{Photons}}$ will be obtained for $\Omega\gg\Gamma_{31}$, i.e., when the dynamics of the system is rule by the Rabi frequency:
+The maximum $\Gamma_{\text{Photons}}$ will be obtained when $\Omega\gg\Gamma_{31}$, i.e., when the dynamics of the system is ruled by the Rabi frequency:
 \begin{equation}
 \Gamma_{\text{Photons}}\leq\frac{\Gamma_{31}}{3}.
 \end{equation}
@@ -245,7 +165,8 @@ Figure\,\ref{2DHighD} shows the $\Gamma_{\text{Photons}}$ as a function of the R
 \end{figure}
 
 \subsection{Medium deshelving rate of state D. $\Gamma_{31}\simeq\Gamma_{21}, \Gamma_{23}$}
-In this scenario, and assuming the saturation of the S$\rightarrow$P transition the rate of red photons that need to be detected reads
+
+In this scenario, and assuming the saturation of the S$\rightarrow$P transition, the rate of red photons that need to be detected reads
 
 \begin{equation}
 \Gamma_{\text{Photons}}=\frac{\Gamma_{23}\Gamma_{31}}{2\Gamma_{31}+\Gamma_{23}}.
@@ -265,8 +186,7 @@ This can be clearly seen in Fig.\,\ref{2DMedD} where $\Gamma_{\text{Photons}}$ r
 \caption{\label{popuM} Population dynamics for $\Omega=1$\ns and  $\Gamma_{31}=\frac{1}{10}$\ns.}
 \end{center}
 \end{figure}
-
-As a summary of this section Fig.\,\ref{3Dgraph} shows $\Gamma_{\text{Photons}}$ as a function of $\Omega$ and $\Gamma_{31}$.
+To summarize this section we plot in Fig.\,\ref{3Dgraph} $\Gamma_{\text{Photons}}$ as a function of $\Omega$ and $\Gamma_{31}$.
 \begin{figure}[ht!]
 \begin{center}
 \includegraphics[width=8.3cm, height=6.7cm]{imgs/3Dgraph.pdf}
@@ -274,7 +194,7 @@ As a summary of this section Fig.\,\ref{3Dgraph} shows $\Gamma_{\text{Photons}}$
 \end{center}
 \end{figure}
 
-The description presented here is based on two main assumptions: the recombination Ba$^{++}\rightarrow$Ba$^+$ is efficient, and there is a mechanism for the deshelving of the metastable D state. In the following we will describe in detail these premises.
+The description presented here is based on two main assumptions: the recombination process Ba$^{++}\rightarrow$Ba$^+$ is efficient, and there is a mechanism to force the deshelving of the metastable D state. In the following we will describe in detail these premises.
 
 \section{Ba$^{++}\rightarrow$Ba$^+$ recombination}
 
@@ -290,9 +210,9 @@ No estoy seguro si esto merece la pena mencionarlo o no
 \label{Subcol}
 
 
-As it was considered above collisions can produce not only the deshelving of the D state, but also of other states of the system. The number of collisions in the experimental conditions of NEXT experiment can be estimated using complex models but on one hand it will be far from the scope of this manuscript, and on the other hand according to the results of Section\,\ref{BaTa} it is in principle enough to know the order of magnitude. Thus, we have restricted ourselves to a simple solid sphere model.
+As we considered above, collisions can produce not only the deshelving of the D state, but also of other states of the system. The number of collisions in the experimental conditions of NEXT can be estimated using complex models but on one hand it will be far from the scope of this manuscript, and on the other hand according to the results of Section\,\ref{BaTa} it is in principle enough to know the order of magnitude. Thus, we have restricted ourselves to a simple solid sphere model.
 
-Let us suppose that Xe atoms and Ba$^+$ ions behave like solid spheres with diameters d$_1$ and d$_2$ respectively, and occupy a volume V.  We will also assume that the diffusion Ba$^+$ ions through Xe in the conditions of the NEXT experiment is rather slow, and their velocity is negligible when compared with the velocity of the Xe atoms v$_1$. This approximation is justified by the high pressure of Xe, around 10\,atm, that will be used in NEXT.    
+Let us suppose that Xe atoms and Ba$^+$ ions behave like solid spheres with diameters d$_1$ and d$_2$ respectively, and occupy a volume V.  We will also assume that the diffusion of Ba$^+$ ions through Xe in the conditions of the NEXT experiment is rather slow, and their velocity is negligible when compared with the velocity of the Xe atoms v$_1$. This approximation is justified by the high pressure of Xe, around 10\,atm, that will be used in NEXT.    
 
  \begin{figure}[ht!]
 \begin{center}
@@ -301,7 +221,7 @@ Let us suppose that Xe atoms and Ba$^+$ ions behave like solid spheres with diam
 \end{center}
 \end{figure}
 
-According to Fig.\,\ref{CylColl} for a collision to take place, a Xe particle must be inside the cylinder volume defined by:
+According to Fig.\,\ref{CylColl}, for a collision to take place a Xe particle must be inside the cylinder volume defined by:
 \begin{align}
 & V_{Cyl}=<v_{12}> dt \, \pi \left(\frac{d_1+d_2}{2}\right)^2 \\ \nonumber
 & =<v_1> dt \, \pi \left(\frac{d_1+d_2}{2}\right)^2.
@@ -314,12 +234,12 @@ the number of Xe particles N inside the volume $V_{Cyl}$ (being N$_1$ the total 
 \begin{equation}
 N=\frac{N_1}{V}V_{Cyl}=\pi d_{12}^2 <v_{1}> dt \frac{N_1}{V},
 \end{equation}
-and therefore the number of collisions per unit of time
+and therefore the number of collisions per unit of time is
 \begin{equation}
 \label{collt}
 z=\pi d_{12}^2 <v_{1}>\frac{N_1}{V}.
 \end{equation}
-If we assume thermodynamic equilibrium, and both gases can be considered as ideal, we have
+If we assume thermodynamic equilibrium, and consider both gases as ideal, we have
 \begin{equation}
 <v_1>=\left(\frac{8KT}{\pi m_1}\right)^{1/2}
 \end{equation}
@@ -335,13 +255,13 @@ being $K$ the Boltzmann constant, $T$ the temperature, $V$ the volume of the ves
 z=\pi d_{12}^2  \frac{PN_A}{R T}\left(\frac{8KT}{\pi m_1}\right)^{1/2}.
 \end{equation}
 
-According to the documentation the Xe pressure in NEXT will be of around 10\,atm, assuming as well a room temperature of 298\,K, and a diameter of Xe and Ba$^+$ of approximately 2.5$\mathbf{\AA}$, the collision rate can be estimated to be 
+The Xe pressure in NEXT will be of around 10\,atm; assuming as well a room temperature of 298\,K, and a diameter of Xe and Ba$^+$ of approximately 2.5$\mathbf{\AA}$, the collision rate can be estimated to be 
 \begin{equation}
 \label{coll_rate}
 z\simeq10^{10}\,\text{s}^{-1}=10\,\text{\ns}.
 \end{equation}
  
- Once the rate of collisions is known, it must be calculated the number of those collisions that effectively induce a relaxation of the population in the atomic system, i.e., the quenching ratio. Madej and Sankey measured the quenching ratio of the state D$_{5/2}$ of Ba$^+$ ions for different molecules and atoms \cite{Sankey90}. For noble gases they measured a quenching coefficient of 1600$\pm$1300\,s$^{-1}$Pa$^{-1}$ for Ar and 2400$\pm$600\,s$^{-1}$Pa$^{-1}$ for He. Considering that the ionization potential (IP) of Xe is in between the IP for Ar and Xe, we can consider the latter values as an upper and lower limit. Thus in the conditions of NEXT experiment the quenching rate for Xe, and therefore $\Gamma_{31}$, will be
+ Once we know the rate of collisions, we must calculate the number of those collisions that effectively induce a relaxation of the population in the atomic system, i.e., the quenching ratio. Madej and Sankey measured the quenching ratio of the state D$_{5/2}$ of Ba$^+$ ions for different molecules and atoms \cite{Sankey90}. For noble gases they measured a quenching coefficient of 1600$\pm$1300\,s$^{-1}$Pa$^{-1}$ for Ar and 2400$\pm$600\,s$^{-1}$Pa$^{-1}$ for He. Considering that the ionization potential (IP) of Xe is  between the IP for Ar and Xe, we can consider the latter values as the upper and lower limits. Thus, in the conditions of NEXT the quenching rate for Xe, and therefore $\Gamma_{31}$, will be
 \begin{equation}
 \label{quenching}
 1.6\pm1.3\,\text{\ns} \leq z_Q \leq 2.4\pm0.6\,\text{\ns}. 
@@ -351,20 +271,20 @@ According to Eq.\,\ref{quenching} the quenching coefficient for Xe produces a si
 \begin{equation}
 \Gamma_{\text{Photons}}\simeq\frac{\Gamma_{31}}{3},
 \end{equation}
-meaning that of a generation of the order of 10$^8$ red fluorescence photons per second.
+meaning that there is a generation of the order of 10$^8$ red fluorescence photons per second.
 
 It must be noticed that at high pressure like in NEXT experiment three body collisions, not considered in this simple calculation, must be taken also into account. This will increase the quenching rate, and accordingly the deshelving rate of the D state. 
 
 \subsection{Deshelving induced by a second laser}
 
-In case that collisions are not efficient for producing a sufficient deshelving of the D state, one can think of using a second laser either tuned to the P$\leftrightarrow$D or to the D$\leftrightarrow$S transition. 
+In case collisions are not efficient to produce a sufficient deshelving of the D state, one could use instead a second laser either tuned to the P$\leftrightarrow$D or to the D$\leftrightarrow$S transition. 
 
 \begin{figure}[ht!]
 \includegraphics[width=8.3cm, height=5cm]{imgs/levelscheme3.pdf}
 \caption{\label{levelscheme3} Level scheme for BaTa with a second laser resonant with the P$\leftrightarrow$D transition.}
 \end{figure}
 
-The first possibility is depicted in Fig.\,\ref{levelscheme3}. The main drawback of this idea is that the laser that produces the deshelving has the same photon energy that those fluorescence photons that need to be detected. If the deshelving laser is pulsed, e.g., a few nanoseconds, in principle it is possible to discriminate between the photons from the laser and from the fluorescence of the P$\rightarrow$D relaxation decay, e.g., synchronizing the photomultipliers with the fluorescence (see Fig.\,\ref{nsDeshelving}). Although this setup is technically feasible, it must be noted the collection of red fluorescence photons will be limited by the repetition rate of  laser system, i.e., by the number of population cycles that can take place per second, which for nanosecond lasers is typically lower than the kHz. It is true that shorter pulse length lasers systems, e.g., femtosecond lasers, have higher repetition rates but they are extremely inefficient coupling bound-bound transitions. This can be easily understood taking into account that for ultrashort pulses the associated bandwidth is much larger than the typical natural bandwidth, i.e., the inverse of radiative lifetime, of atomic states. As a consequence  only a small fraction of the laser bandwidth is effectively on resonance with the transitions, which results in a very inefficient coupling. 
+The first possibility is depicted in Fig.\,\ref{levelscheme3}. The main drawback of this choice is that the laser that produces the deshelving has the same photon energy that the fluorescence photons that need to be detected. If the deshelving laser is pulsed, e.g., a few nanoseconds, in principle it would be possible to discriminate between the photons from the laser and from the fluorescence of the P$\rightarrow$D relaxation decay, e.g., synchronizing the photomultipliers with the fluorescence (see Fig.\,\ref{nsDeshelving}). Although this setup is technically feasible it must be noted the collection of the red fluorescence photons will be limited by the repetition rate of  the laser system, i.e., by the number of population cycles that can take place per second which for nanosecond lasers is typically lower than the kHz. Shorter pulse length lasers systems, e.g., femtosecond lasers, have higher repetition rates but they are extremely inefficient coupling bound-bound transitions. This can be easily understood taking into account that for ultrashort pulses the associated bandwidth is much larger than the typical natural bandwidth, i.e., the inverse of radiative lifetime, of atomic states. As a consequence, only a small fraction of the laser bandwidth is effectively on resonance with the transitions, resulting in a very inefficient coupling. 
 
 
 \begin{figure}[ht!]
@@ -372,7 +292,7 @@ The first possibility is depicted in Fig.\,\ref{levelscheme3}. The main drawback
 \caption{\label{nsDeshelving} A blue CW laser couples the S$\leftrightarrow$P transitions, and a red pulsed laser tuned to the P$\leftrightarrow$D transition deshelves the D state.}
 \end{figure}
 
-A second possibility for the deshelving of the D state is to induce a two photon transition from the state D to the state P (see Fig.\,\ref{levelscheme4}). For a two photon transition the change in the angular moment must be $\Delta L=0,2$ being then the transition D$\leftrightarrow$S allowed. The required wavelength for this laser is around 4.1\,$\mu$m which is actually a not easily accesible wavelength region for lasers systems. In fact at the moment there are big efforts, see for example \cite{Evans12}, for developing systems capable to cover such energy region because it is not absorbed by the atmosphere (infrared atmospheric window).
+A second possibility for deshelving the D state is to induce a two photon transition from the state D to the state P (see Fig.\,\ref{levelscheme4}). For a two photon transition the change in the angular moment must be $\Delta L=0,2$ being then the transition D$\leftrightarrow$S allowed. The required wavelength for this laser is around 4.1\,$\mu$m which is not an easily accesible wavelength region for laser systems. In fact , big efforts are being made, see for example \cite{Evans12}, to develope systems capable to cover such energy region because                                    it is not absorbed by the atmosphere (infrared atmospheric window).
 
 \begin{figure}[ht!]
 \includegraphics[width=8.3cm, height=5cm]{imgs/levelscheme4.pdf}
@@ -380,7 +300,7 @@ A second possibility for the deshelving of the D state is to induce a two photon
 \end{figure}
 
 \section{Broadening mechanisms}
-For a complete description of BaTa the different broadening mechanisms must be taken into account. These mechanism not only produce a broadening of the transitions, but also a frequency shift. Thus, in order to compensate these effects the laser that couples the S$\leftrightarrow$P transition need to be tunable, and intense enough to balance the reduction in the absorption cross section produced by the broadening mechanisms.
+For a complete description of BaTa the different broadening mechanisms must be taken into account. These mechanisms not only produce a broadening of the transitions, but also a frequency shift. In order to compensate these effects, the laser that couples the S$\leftrightarrow$P transition needs to be tunable and intense enough to balance the reduction in the absorption cross section produced by the broadening mechanisms.
 
 \subsection{Natural broadening} 
 It can be shown that the intensity profile of an absorption line can be written as Lorentzian function \cite{Demtroder03}
@@ -388,7 +308,7 @@ It can be shown that the intensity profile of an absorption line can be written 
 \label{Lorentz}
 I(\omega)\propto\frac{1}{(\omega-\omega_0)^2+\gamma_n^2}
 \end{equation}
-being $\omega$ the laser frequency, $\omega_0$ the Bohr frequency of the transition and $\gamma_n$ the natural bandwidth that is equal to:
+being $\omega$ the laser frequency, $\omega_0$ the Bohr frequency of the transition, and $\gamma_n$ the natural bandwidth that is equal to:
 \begin{equation}
 \label{gamma_n}
 \gamma_n=1/\tau_{\text{rad.}}
@@ -398,7 +318,7 @@ where $\tau_{\text{rad.}}$ is the radiative lifetime of the chosen transition. T
 \label{broad_n}
 \delta\omega=\gamma_n.
 \end{equation}
-According to Fig.\,\ref{levelscheme} the state P has two fluorescence decays, therefore Eq.\,\ref{broad_n} must be modified to
+According to Fig.\,\ref{levelscheme} the state P has two fluorescence decays; therefore, Eq.\,\ref{broad_n} must be modified to
 \begin{equation}
 \delta\omega=1/\tau_{\text{P}\rightarrow\text{S}}+1/\tau_{\text{P}\rightarrow\text{D}}
 \end{equation}
@@ -408,9 +328,9 @@ resulting a line broadening of
 \end{equation}
 
 \subsection{Collisional broadening}
-If the absorbing atom or molecule is suffering frequent collisions with another particles, the electron energy levels will distorted. This will produced not only a broadening of the spectral line, collisional or pressure broadening, but also a energy shift of the Bohr transition. Collisions can be either elastic which cause broadening and energy shift, or inelastic which cause just broadening. The inelastic collisions are often called quenching collisions because they produce the deshelving of excited states. The collisional mechanisms can be incorporated into Eq.\,\ref{Lorentz} resulting
+If the absorbing atom or molecule is suffering frequent collisions with other particles, the electron energy levels will be distorted. This will produced not only a broadening of the spectral line, collisional or pressure broadening, but also an energy shift of the Bohr transition. Collisions can be either elastic, causing broadening and energy shift, or inelastic causing just broadening. The inelastic collisions are often called quenching collisions because they produce the deshelving of excited states. The collisional mechanisms can be incorporated into Eq.\,\ref{Lorentz} resulting
 \begin{equation}
-\label{Lorentz}
+\label{Lorentz2}
 I(\omega)\propto\frac{1}{(\omega-\omega_0-\Delta\omega)^2+\gamma^2}
 \end{equation}
 where $\gamma=\gamma_n+\gamma_{col}$ being $\gamma_{col}$ the total collision rate, and $\Delta\omega=\gamma_{elast}$ the energy shift being $\gamma_{least}$ the rate of elastic collisions. According to rates obtained in Section\,\ref{Subcol}, the collisional energy shift is
@@ -429,7 +349,7 @@ The motion of the absorbing atoms produces small variations in the absorption fr
 \begin{equation}
 \omega=\omega_0+\vec{k}\vec{v}.
 \end{equation}
-According to this equation absorption frequency shift will maximum if the particle moves parallel to the laser propagation, e.g., z direction. Then we can write
+According to this equation the absorption frequency shift will be maximum if the particle moves parallel to the laser propagation. Lets assume it propagates in the z direction, then we can write
 \begin{equation}
 \label{Modfreq}
 \omega=\omega_0\left(1+\frac{v_z}{c}\right).
@@ -437,9 +357,9 @@ According to this equation absorption frequency shift will maximum if the partic
 At thermal equilibrium the particles of a gas follow a Maxwellian velocity distribution defined by
 \begin{equation}
 \label{Maxwell}
-P(v_z)dv_z=\sqrt{\frac{m}{2\Pi k_B T}}\text{Exp}\left[-\frac{mv_z^2}{2k_BT}\right]dv_z
+P(v_z)dv_z=\sqrt{\frac{m}{2\pi k_B T}}\text{Exp}\left[-\frac{mv_z^2}{2k_BT}\right]dv_z
 \end{equation}
-Using Eq.\,\ref{Modfreq} we can modified Eq.\,\ref{Maxwell} and obtain the number of particles with absorption frequencies between $\omega$ and $\omega+d\omega$
+Using Eq.\,\ref{Modfreq} we can modify Eq.\,\ref{Maxwell} and obtain the number of particles with absorption frequencies between $\omega$ and $\omega+d\omega$
 \begin{equation}
 \label{Maxwell2}
 P(\omega)d\omega=\sqrt{\frac{mc^2}{2\pi \omega_0 k_B T}}\text{Exp}\left[-\frac{mc^2}{2k_BT\left(\frac{\omega-\omega_0}{\omega_0}\right)^2}\right]d\omega
